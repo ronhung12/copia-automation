@@ -55,4 +55,6 @@ function sync(arr1, arr2) {
     }
 };
 
-console.log(sync([1, 2, 3], [1, 3, 4]))
+console.log(sync([1, 2, 3, 4, 5], [1, 3, 4]))
+
+module.exports = sync;

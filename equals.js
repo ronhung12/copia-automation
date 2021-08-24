@@ -48,3 +48,5 @@ console.log(equals({
         "key1": "value",
         "key2": [1, 2, 3]
     }))
+
+module.exports = equals;
